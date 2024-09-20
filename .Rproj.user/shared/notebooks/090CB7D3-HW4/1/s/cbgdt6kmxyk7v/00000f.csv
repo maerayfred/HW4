@@ -1,0 +1,4 @@
+"0","#Reading in White Wine 1st sheet"
+"0","wwine<-read_excel(""white-wine.xlsx"","
+"0","                sheet=excel_sheets(""white-wine.xlsx"")[1]  )"
+"0","wwine"

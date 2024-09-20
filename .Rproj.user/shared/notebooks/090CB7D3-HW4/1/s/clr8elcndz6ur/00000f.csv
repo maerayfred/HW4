@@ -1,0 +1,21 @@
+"0","library(readr)"
+"0","yeast<-read_table(""https://www4.stat.ncsu.edu/online/datasets/yeast.data"", col_names=c(""seq_name"",""mcg"",""gvh"",""alm"",""mit"",""erl"",""pox"",""vac"",""nuc"",""class"")"
+"0",")"
+"1","
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────[39m
+cols(
+  seq_name = [31mcol_character()[39m,
+  mcg = [32mcol_double()[39m,
+  gvh = [32mcol_double()[39m,
+  alm = [32mcol_double()[39m,
+  mit = [32mcol_double()[39m,
+  erl = [32mcol_double()[39m,
+  pox = [32mcol_double()[39m,
+  vac = [32mcol_double()[39m,
+  nuc = [32mcol_double()[39m,
+  class = [31mcol_character()[39m
+)
+
+"
+"0","#Calling the tibble"
+"0","yeast"
